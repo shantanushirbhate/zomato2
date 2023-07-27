@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.first-image {
+  position:absolute;
+  height:500px;
+  width: 100%;
+  z-index: -1; 
+}
+.account-button {
+  position: relative;
+  gap: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  position: sticky;
+  /* margin-top: 10px; */
+  
+}
+
+a{
+  
+  text-decoration: none;
+  color:white;
+  font-size: 2rem;
+  border: 1px solid white;
+  border-width:1px ;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 20px;
+}
+
+.create-button{
+  margin-top: 35px;
+}
+
+
+/* signup-button{
+  
+} */
+.login-button {
+  font-size: 2rem;
+  color:white;
+  
+}
+
+.logo {
+  position: relative;
+  margin-top: 5rem;
+  display:flex;
+  flex-direction: column;
+  border-radius: 3rem;
+  background-color: aliceblue;
+  font-size: 90px;
+  color: red;
+  height: 100px;
+  width: 100px;
+  margin-left: 50%;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button {
+  display: flex;
+  margin-top: 50px;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6rem;
+  background: px;
+
+}
+
+.hfirst-button{
+  height: 50px;
+  display:flex;
+  /* border-radius: 20px; */
+  border-width: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+
+
+.hotel-button {
+  height: 50px;
+  display:flex;
+  /* border-radius: 20px; */
+  border-width: 2px;
+  padding-left:30px;
+  padding-right: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+
+}
+
+.logo-headline {
+  display: flex;
+  font-size:3rem;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 6rem;
+  font-weight: bolder;
+}
+
+.quick-search{
+padding-top: 60px;
+margin-left: 120px;
+line-height: 20px;
+}
+
+.dinner-container{
+  display: inline-flex;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  padding: 20px;
+  box-shadow: 10px 10px 30px black;
+  background-color:white;
+  cursor: pointer;
+  opacity: 1;
+
+
+}
+
+.dinner-image{
+position: relative;
+display: inline-flex;
+height: 100px;
+width: 100px;
+padding: 0px;
+box-shadow: 10px;
+}
+
+.dinner-heading{
+  display: inline-flex;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left:30px ;
+  margin-top: -4px;
+  margin-bottom:-10px;
+
+  
+}
+
+.dinner-paragraph{
+  line-height: 1px;
+  font-size: large;
+   margin-left:33px ;
+   margin-right: 30px;
+}
